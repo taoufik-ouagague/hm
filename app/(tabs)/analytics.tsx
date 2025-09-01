@@ -10,16 +10,7 @@ import Animated, {
   interpolate
 } from 'react-native-reanimated';
 import { LinearGradient } from 'expo-linear-gradient';
-import { 
-  TrendingUp, 
-  Calendar, 
-  Clock, 
-  Target,
-  BarChart3,
-  PieChart,
-  Activity,
-  Zap
-} from 'lucide-react-native';
+import { TrendingUp, Calendar, Clock, Target, ChartBar as BarChart3, ChartPie as PieChart, Activity, Zap } from 'lucide-react-native';
 
 const { width } = Dimensions.get('window');
 
