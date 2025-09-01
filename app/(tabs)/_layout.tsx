@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router';
-import { Home, CheckSquare, BarChart3, Settings, Plus } from 'lucide-react-native';
+import { Chrome as Home, SquareCheck as CheckSquare, ChartBar as BarChart3, Settings, Plus } from 'lucide-react-native';
 import { View, StyleSheet } from 'react-native';
 
 export default function TabLayout() {
