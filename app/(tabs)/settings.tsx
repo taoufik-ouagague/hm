@@ -9,21 +9,7 @@ import Animated, {
   withDelay,
   withSequence
 } from 'react-native-reanimated';
-import { 
-  User, 
-  Bell, 
-  Moon, 
-  Globe, 
-  Shield, 
-  HelpCircle,
-  ChevronRight,
-  Palette,
-  Volume2,
-  Smartphone,
-  Download,
-  Star,
-  Heart
-} from 'lucide-react-native';
+import { User, Bell, Moon, Globe, Shield, CircleHelp as HelpCircle, ChevronRight, Palette, Volume2, Smartphone, Download, Star, Heart } from 'lucide-react-native';
 
 interface SettingItem {
   id: string;

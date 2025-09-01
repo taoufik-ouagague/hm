@@ -1,7 +1,7 @@
 import { Link, Stack } from 'expo-router';
 import { StyleSheet, View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { AlertCircle } from 'lucide-react-native';
+import { CircleAlert as AlertCircle } from 'lucide-react-native';
 
 export default function NotFoundScreen() {
   return (

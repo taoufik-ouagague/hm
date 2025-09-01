@@ -10,16 +10,7 @@ import Animated, {
   interpolate
 } from 'react-native-reanimated';
 import { LinearGradient } from 'expo-linear-gradient';
-import { 
-  Plus, 
-  Calendar, 
-  Clock, 
-  Flag, 
-  Tag,
-  Save,
-  X,
-  CheckCircle
-} from 'lucide-react-native';
+import { Plus, Calendar, Clock, Flag, Tag, Save, X, CircleCheck as CheckCircle } from 'lucide-react-native';
 
 export default function CreateScreen() {
   const [title, setTitle] = useState('');
