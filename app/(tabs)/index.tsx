@@ -21,7 +21,8 @@ import {
   ChevronRight,
   Star,
   Award,
-  Activity
+  Activity,
+  Plus
 } from 'lucide-react-native';
 
 const { width } = Dimensions.get('window');
